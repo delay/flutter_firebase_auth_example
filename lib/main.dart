@@ -6,14 +6,14 @@ import 'package:flutter_firebase_auth_example/ui/screens/sign_in.dart';
 import 'package:flutter_firebase_auth_example/ui/screens/sign_up.dart';
 import 'package:flutter_firebase_auth_example/ui/screens/forgot_password.dart';
 
-class TaskNoterApp extends StatelessWidget {
-  TaskNoterApp() {
+class MyApp extends StatelessWidget {
+  MyApp() {
     //Navigation.initPaths();
   }
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'TaskNoter',
+      title: 'MyApp Title',
       theme: buildTheme(),
       //onGenerateRoute: Navigation.router.generator,
       debugShowCheckedModeBanner: false,
@@ -29,7 +29,7 @@ class TaskNoterApp extends StatelessWidget {
 
 void main() {
   StateWidget stateWidget = new StateWidget(
-    child: new TaskNoterApp(),
+    child: new MyApp(),
   );
   runApp(stateWidget);
 }

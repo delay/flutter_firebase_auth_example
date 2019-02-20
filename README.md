@@ -36,7 +36,7 @@ I also use validation for text fields and handle and display error messages via 
 
 ## /ui/widgets
 
-**loading.dart** - LoadingScreen - small modification to the excellent package https://pub.dartlang.org/packages/modal_progress_hud to wrap the circular progress indicator.
+**loading.dart** - LoadingScreen - small modification to the excellent package [modal_progress_hud](https://pub.dartlang.org/packages/modal_progress_hud) to wrap the circular progress indicator.
 
 ## /util/
 
