@@ -1,6 +1,6 @@
-#Flutter Auth with Firebase Example
+# Flutter Auth with Firebase Example
 
-![flutter firebase auth screenshots](https://github.com/delay/flutter_firebase_auth_example/blob/master/website_images/screenshot_auth.png)
+![flutter firebase auth screenshots](https://github.com/delay/flutter_firebase_auth_example/blob/master/website_images/screenshot_auth.jpg)
 There are numerous tutorials on using firebase auth with flutter. I went through many of these to work through making my own take on a Firebase Auth flutter project that worked the way I needed it to. Definitely check out these projects which provide much more in depth tutorials.
 
 [Simple Recipe app made in flutter firebase and google sign in](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firebase-and-google-sign-in-14d1535e9a59)
@@ -16,15 +16,15 @@ I setup my project to combine firebase auth with saving my user info to shared p
 
 I also use validation for text fields and handle and display error messages via a snackbar style notification [flushbar package)](https://pub.dartlang.org/packages/flushbar). Finally I use global state to keep track of when the data changes.
 
-##Overview of files...
+## Overview of files...
 
 **main.dart** - this file initializes the app and contains the routing as well as the global state setup and references the custom theme.
 
-##/ui/
+## /ui/
 
 **theme.dart** - contains some custom theme info.
 
-##/ui/screens/
+## /ui/screens/
 
 **home.dart** - HomeScreen when the user is logged in, also redirects the user when he is not logged in to the SignInScreen.
 
@@ -34,11 +34,11 @@ I also use validation for text fields and handle and display error messages via 
 
 **forgot_password.dart** - ForgotPasswordScreen lets you send a firebase query to reset your password.
 
-##/ui/widgets
+## /ui/widgets
 
 **loading.dart** - LoadingScreen - small modification to the excellent package https://pub.dartlang.org/packages/modal_progress_hud to wrap the circular progress indicator.
 
-##/util/
+## /util/
 
 **auth.dart** - The Auth class which controls authenticating and reading and storing info related to auth.
 
