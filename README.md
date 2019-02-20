@@ -1,4 +1,6 @@
 #Flutter Auth with Firebase Example
+
+![flutter firebase auth screenshots](https://github.com/delay/flutter_firebase_auth_example/blob/master/website_images/screenshot_auth.png)
 There are numerous tutorials on using firebase auth with flutter. I went through many of these to work through making my own take on a Firebase Auth flutter project that worked the way I needed it to. Definitely check out these projects which provide much more in depth tutorials.
 
 [Simple Recipe app made in flutter firebase and google sign in](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firebase-and-google-sign-in-14d1535e9a59)
