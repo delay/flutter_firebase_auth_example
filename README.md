@@ -45,7 +45,8 @@ I also use validation for text fields and handle and display error messages via 
 **state_widget.dart** - The state widget class which initializes the user and logs them in and out.
 
 **validator.dart** - Validation class with some custom validations for email, password, etc.
-##/models/
+
+## /models/
 
 > Used [quicktype](https://app.quicktype.io/#l=dart) to setup the models but added one extra function for firebase.
 
