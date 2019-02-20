@@ -14,7 +14,7 @@ There are numerous tutorials on using firebase auth with flutter. I went through
 I am still new to flutter so there are probably better ways to handle many of the options in this code.
 I setup my project to combine firebase auth with saving my user info to shared preferences on the mobile device. When logging in it reads the info from local storage first. If it doesn’t exist, the user logs into firebase and the user and settings data is retrieved from firestore and stored locally. This minimizes the number of requests required from firestore. I wanted to login with an email and password as opposed to logging in with google sign in or facebook sign in.
 
-I also use validation for text fields and handle and display error messages via a snackbar style notification [flushbar package)](https://pub.dartlang.org/packages/flushbar). Finally I use global state to keep track of when the data changes.
+I also use validation for text fields and handle and display error messages via a snackbar style notification [flushbar package](https://pub.dartlang.org/packages/flushbar). Finally I use global state to keep track of when the data changes.
 
 ## Overview of files...
 
