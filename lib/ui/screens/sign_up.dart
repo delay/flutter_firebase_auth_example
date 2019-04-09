@@ -215,11 +215,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
         _changeLoadingVisible();
         print("Sign Up Error: $e");
         String exception = Auth.getExceptionText(e);
-        Flushbar()
-          ..title = "Sign Up Error"
-          ..message = exception
-          ..duration = Duration(seconds: 5)
-          ..show(context);
+        Flushbar(
+          title: "Sign Up Error",
+          message: exception,
+          duration: Duration(seconds: 5),
+        )..show(context);
       }
     } else {
       setState(() => _autoValidate = true);

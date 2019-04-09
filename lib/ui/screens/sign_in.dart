@@ -165,11 +165,11 @@ class _SignInScreenState extends State<SignInScreen> {
         _changeLoadingVisible();
         print("Sign In Error: $e");
         String exception = Auth.getExceptionText(e);
-        Flushbar()
-          ..title = "Sign In Error"
-          ..message = exception
-          ..duration = Duration(seconds: 5)
-          ..show(context);
+        Flushbar(
+          title: "Sign In Error",
+          message: exception,
+          duration: Duration(seconds: 5),
+        )..show(context);
       }
     } else {
       setState(() => _autoValidate = true);

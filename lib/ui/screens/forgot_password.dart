@@ -124,21 +124,21 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
         await _changeLoadingVisible();
         await Auth.forgotPasswordEmail(email);
         await _changeLoadingVisible();
-        Flushbar()
-          ..title = "Password Reset Email Sent"
-          ..message =
-              'Check your email and follow the instructions to reset your password.'
-          ..duration = Duration(seconds: 20)
-          ..show(context);
+        Flushbar(
+          title: "Password Reset Email Sent",
+          message:
+              'Check your email and follow the instructions to reset your password.',
+          duration: Duration(seconds: 20),
+        )..show(context);
       } catch (e) {
         _changeLoadingVisible();
         print("Forgot Password Error: $e");
         String exception = Auth.getExceptionText(e);
-        Flushbar()
-          ..title = "Forgot Password Error"
-          ..message = exception
-          ..duration = Duration(seconds: 10)
-          ..show(context);
+        Flushbar(
+          title: "Forgot Password Error",
+          message: exception,
+          duration: Duration(seconds: 10),
+        )..show(context);
       }
     } else {
       setState(() => _autoValidate = true);
