@@ -2,7 +2,7 @@
 
 ![flutter firebase auth screenshots](https://github.com/delay/flutter_firebase_auth_example/blob/master/website_images/screenshot_auth.jpg)
 
-## Currently working on rewriting this code to make use of streams instead... it's a much better way for flutter projects.  This code was made for how I thought it should be coming from a js environment, now I know better... I will post here once I have the new project completed.
+## This project has been replaced with this [new flutter auth project](https://github.com/delay/flutter_firebase_auth_starter) I made.  Please use it instead.  It has more features and does things in a more flutter way.
 
 There are numerous tutorials on using firebase auth with flutter. I went through many of these to work through making my own take on a Firebase Auth flutter project that worked the way I needed it to. Definitely check out these projects which provide much more in depth tutorials.
 
